@@ -32,4 +32,4 @@ jobs:
         app-name: 'react-app-test-leonardo'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a575d87ce2cb42ef881d152544831884 }}
-        package: .
+        package: './build/'
